@@ -11,6 +11,15 @@
   </head>
 
   <body>
+
+    <div class="navbar">
+      <ul class="navlist">
+        <%= link_to "Home", root_path %>
+        <%= link_to "About Me", pages_about_path %>
+        <%= link_to "Gallery", pages_gallery_path %>
+      </ul>
+    </div>
+
     <%= yield %>
   </body>
 </html>
