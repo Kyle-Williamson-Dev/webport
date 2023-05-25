@@ -1,11 +1,7 @@
 .hero-section {
   height: 100vh;
   color: white;
-  background-image: url(/assets/images/Rachelle_best.jpg);  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  background-color: black;  
 }
 
 .hero-text {
@@ -14,5 +10,4 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-
 }
