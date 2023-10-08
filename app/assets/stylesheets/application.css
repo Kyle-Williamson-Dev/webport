@@ -11,10 +11,26 @@ html, body {
   height: 100%;
 }
 
-.navbar {
+/* navbar */
+
+.nav {
   height: auto;
-  background-color: #1d1d1d;
-  padding: 30px 30px;
+  background-color: #fff;
+}
+
+.header {
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+
+#myname {
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+#title {
+  font-size: 4.0em;
+  font-weight: 400;
 }
 
 .navlist {
@@ -26,12 +42,10 @@ html, body {
 li {
   display: inline;
   margin: 0 40px 0 40px;
-  font-size: 2.3rem;
-  font-weight: 300;
- 
+  font-size: 1.5rem;
 }
 
 a {
   text-decoration: none;
-  color: #cccccc;
+  color: #000;
 }
