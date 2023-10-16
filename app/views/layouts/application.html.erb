@@ -16,7 +16,7 @@
     <div class="nav">
       <ul class="header">
         <li id="myname">Kyle Williamson</li>
-        <li id="title">Photography Portfolio</li>
+        <li id="title">My Portfolio</li>
       </ul>
       <ul class="navlist">
         <li><%= link_to "Home", root_path %></li>
@@ -24,6 +24,15 @@
         <li><%= link_to "Gallery", pages_gallery_path %></li>
       </ul>
     </div>
+
+    <footer>
+      <ul class="socials">
+        <li class="sociallinks"><%= link_to "Facebook", "http://www.facebook.com/Spartan626" %></li>
+        <li class="sociallinks"><%= link_to "Instagram", "http://www.instagram.com/mileup_photo/" %></li>
+        <li class="sociallinks"><%= link_to "LinkedIn", "https://www.linkedin.com/in/kyle-williamson-dev/" %></li>
+        <li class="sociallinks"><%= link_to "Pinterest", "https://www.pinterest.com/theactualkyle/" %></li>
+      </ul>
+    </footer>
 
     <%= yield %>
   </body>
