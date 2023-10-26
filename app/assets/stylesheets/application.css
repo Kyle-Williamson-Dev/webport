@@ -49,12 +49,16 @@ li {
 }
 
 a {
+  padding: 10px;
   text-decoration: none;
   color: #7a5edd;
+  transition: 0.3s;
+  border-radius: 20px;
 }
 
 a:hover {
-  border-bottom: solid 1px #7a5edd;
+  background: #7a5edd;
+  color: #fff;
 }
 
 
