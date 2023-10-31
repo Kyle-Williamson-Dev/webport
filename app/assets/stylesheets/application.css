@@ -15,6 +15,7 @@ html, body {
 
 .nav {
   display: flex;
+  padding: 20px;
   justify-content: center;
   align-items: center;
   width: auto;
@@ -45,13 +46,13 @@ li {
 a {
   padding: 10px;
   text-decoration: none;
-  color: #7a5edd;
+  color: #db8e36;
   transition: 0.3s;
   border-radius: 20px;
 }
 
 a:hover {
-  background: #7a5edd;
+  background: #db8e36;
   color: #fff;
 }
 
@@ -79,4 +80,9 @@ footer {
   display: inline;
   margin: 0 25px 0 25px;
   font-size: 1rem;
+}
+
+.sociallinks:hover {
+  color: #db8e36;
+  background-color: #1f1f1f;
 }

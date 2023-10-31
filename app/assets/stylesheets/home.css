@@ -1,7 +1,7 @@
 /* hero section */
 
 .hero-image {
-  background-color: #7a5edd;
+  background-color: #db8e36;
   height: 350px;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,9 +31,20 @@
   padding-left: 50px;
 }
 
+.hireme {
+  color: #fff;
+  background-color: #db8e36;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.hireme:hover {
+  background-color: #fff;
+  color: #db8e36;
+}
+
 a {
   color: #a1a1a1;;
   background-color: #1f1f1f;
 }
 
-/* chnage hire me to white background purple font */
