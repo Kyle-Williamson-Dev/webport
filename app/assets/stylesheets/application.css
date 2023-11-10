@@ -15,47 +15,44 @@ html, body {
 
 .nav {
   display: flex;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  background-color: #1f1f1f; 
-}
-
-.header {
-  display: flex;
   justify-content: space-evenly;
-  padding: 100px 0 100px 0;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  background-color: #dfdfdf; 
 }
 
 .navlist {
   display: flex;
   margin: 0;
   text-align: center;
-  justify-content: center;
 }
 
 li {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 0 40px 0 40px;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  background-color: #dfdfdf;
 }
 
 a {
-  padding: 10px;
   text-decoration: none;
-  color: #db8e36;
+  color: black;
   transition: 0.3s;
-  border-radius: 20px;
 }
 
 a:hover {
-  background: #db8e36;
-  color: #fff;
+  color: ;
 }
 
+.logo {
+  display: flex;
+  padding: 0; 
+  margin: 0;
+  color: black;
+  text-align: center;
+  align-items: center;
+}
 
 /* footer */
 

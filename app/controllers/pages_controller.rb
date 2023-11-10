@@ -4,11 +4,11 @@ class PagesController < ApplicationController
 
   end
 
-  def about
+  def contact
 
-  end
+  end 
 
-  def gallery
+  def portfolio
 
   end
   

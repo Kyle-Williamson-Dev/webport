@@ -9,6 +9,7 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= stylesheet_link_tag 'home.css', media: 'all' %>
+    <%= stylesheet_link_tag 'contact.css', media: 'all' %>
     <%= javascript_importmap_tags %>
   </head>
 
@@ -17,9 +18,10 @@
     <div class="nav">
       <ul class="navlist">
         <li><%= link_to "Home", root_path, class: "navlink" %></li>
-        <li><%= link_to "Gallery", pages_gallery_path, class: "navlink" %></li>
-        <li><%= link_to "Contact Me", pages_about_path, class: "navlink" %></li>
+        <li><%= link_to "Portfolio", pages_portfolio_path, class: "navlink" %></li>
+        <li><%= link_to "Contact Me", pages_contact_path, class: "navlink" %></li>
       </ul>
+      <h3 class="logo">Logo</h3>
     </div>
     
     <footer>
