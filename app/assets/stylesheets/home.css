@@ -2,7 +2,7 @@
 
 .hero-image {
   background-color: #fff;
-  height: 350px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,4 +46,15 @@
   color: #fff;
 }
 
+/* about me */
 
+.about-me {
+  display: flex;
+  width: 100%;
+  height: 54vh;
+  background-color: #3b3b3b;
+}
+
+.about-content, h2, p {
+  color: #fff;
+}
