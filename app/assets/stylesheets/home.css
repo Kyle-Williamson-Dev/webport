@@ -55,6 +55,10 @@
   background-color: #3b3b3b;
 }
 
+.about-content {
+  display: flex;
+}
+
 .about-content, h2, p {
   color: #fff;
 }
