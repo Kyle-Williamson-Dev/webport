@@ -64,7 +64,11 @@
   flex-direction: column;
 }
 
-.about-content, h2, p {
+#about-h2 {
+  color: #db8e36;
+}
+
+.about-content, p {
   color: #fff;
 }
 
