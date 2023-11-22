@@ -13,3 +13,10 @@ function mobileMenu() {
 }
 
 const navLink = document.querySelectorAll("nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+  burger.classList.remove("active");
+  navList.classList.remove("active");
+}
