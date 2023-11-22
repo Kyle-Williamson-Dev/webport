@@ -16,11 +16,18 @@
   <body>
 
     <div class="nav">
+      <h3><%= link_to "Check out my Photography!", "https://www.modelmayhem.com/4704027" %></h3>
+      <%# <h2>Logo</h2> %>
       <ul class="navlist">
-        <li><%= link_to "Home", root_path %></li>
-        <li><%= link_to "Portfolio", pages_portfolio_path %></li>
-        <li><%= link_to "Contact Me", pages_contact_path, class: "contact" %></li>
+        <li><%= link_to "Home", root_path, class: "nav-link" %></li>
+        <li><%= link_to "Portfolio", pages_portfolio_path, class: "nav-link" %></li>
+        <li><%= link_to "Contact Me", pages_contact_path, class: "nav-link" %></li>
       </ul>
+      <div class="burger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </div>
     
     <footer>
